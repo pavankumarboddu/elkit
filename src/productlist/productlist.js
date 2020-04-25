@@ -31,7 +31,7 @@ class Productlist extends React.Component {
                              this.props.products.cleanser.map((item)=>{
                                  return(
                                     <div className="card-body" key={item.id} style={{display:"block"}}>
-                                        <div>{item.id} {item. description} {item.price} </div>
+                                        <div>{item.id} {item.description} {item.price} </div>
                                         <img src={item.img} alt={item.id}></img> 
                                     </div> 
                                     )
