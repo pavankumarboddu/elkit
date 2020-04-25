@@ -1,26 +1,20 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Productlist from './productlist/productlist';
 
-function App() {
+
+class App extends React.Component {
+  render(){
+    const cleanser = require("./db.json/cleanser.json")
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+     <Productlist products={cleanser} id ="1" title = "Pick a cleanser"/>
+     <Productlist products={cleanser} id ="2" title = "Pick a serum"/>
+     <Productlist products={cleanser} id ="3" title = "Pick a moisturizer"/>
+     <Productlist products={cleanser} id ="4" title = "Pick a eye cream"/>
+     
     </div>
   );
+}
 }
 
 export default App;

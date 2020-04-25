@@ -1,0 +1,6 @@
+.card-body h2 {
+    float : left
+}
+.card-body button {
+    float: right;
+}

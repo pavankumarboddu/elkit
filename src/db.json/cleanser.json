@@ -1,0 +1,32 @@
+{
+    "cleanser" :
+    [
+        { "id" : 1 ,
+            "img" : "../images/image1.jpg", 
+            "name" : "Nutritious super pomegranate" , 
+            "price" : "$32" , 
+            "description" : "purifies skin in 2ways"
+        },
+
+        { "id" : 2 , 
+            "img" : "../images/image2.jpg",
+            "name" : "Nutritious super pomegranate" ,
+             "price" : "$32" , 
+             "description" : "purifies skin in 2ways"
+        },
+
+        { "id" : 3 ,
+             "img" : "../images/image1.jpg", 
+             "name" : "Nutritious super pomegranate" ,
+              "price" : "$32" , 
+              "description" : "purifies skin in 2ways"
+        },
+
+        { "id" : 4 , 
+            "img" : "../images/image1.jpg",
+            "name" : "Nutritious super pomegranate" ,
+             "price" : "$32" ,
+             "description" : "purifies skin in 2ways"
+        }
+    ]
+}
